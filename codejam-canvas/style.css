@@ -1,0 +1,81 @@
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+
+.canvas {
+    background-color: #ccc;
+    justify-self: center;
+
+}
+
+/*ICONS*/
+
+
+.wrapper {
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+}
+.leftNav-top{
+    
+    -webkit-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    width:100%;
+    border-radius: 3px;
+}
+.leftNav-bottom{
+    margin-top:20% ;
+    -webkit-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    width:100%;
+    border-radius: 3px;
+}
+.leftNav{
+    margin-left:10%;
+    width:10%;
+    margin-top:2%;
+}
+.leftNav-button{
+    padding: 7% 7% 7% 0;
+    
+    border:0;
+    width:80%;
+    background-color: #fff;
+}
+.leftNav ul li :hover{
+    background-color: #ccc;
+}
+.leftNav ul li{
+    padding-left: 5%;
+}
+.rightNav{
+    margin-top:2%;
+    -webkit-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
+    width:15%;
+    border-radius: 3px;
+    margin-right: 5%;
+}
+
+
+
+.drawButton{
+    padding: 7%;
+    border:0;
+    width:100%;
+    background-color: #fff;
+}
+
+.rightNav ul li :hover{
+    background-color: #ccc;
+}
